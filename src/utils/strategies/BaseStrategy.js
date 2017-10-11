@@ -21,11 +21,11 @@ export default class BaseStrategy {
       throw new Error('startX is out of range');
     } else if (startY >= documentHeight) {
       throw new Error('startY is out of range');
-    } else if (endX > documentWidth) {
+    /*} else if (endX > documentWidth) {
       throw new Error('endX is out of range');
     } else if (endY > documentHeight) {
       throw new Error('endY is out of range');
-    }
+    }*/
 
     this.area = {
       startX,
